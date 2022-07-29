@@ -31,9 +31,6 @@ func Handler() {
 		c.JSON(http.StatusOK, companyController.DeleteCompany(c))
 	})
 
-	/*r.GET("/company", func(c *gin.Context) {
-		c.JSON(http.StatusOK, companyController.GetCompanyById(c))
-	})*/
-
+	
 	r.Run()
 }
