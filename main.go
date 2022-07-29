@@ -1,8 +1,8 @@
 package main
 
 import (
+	"gininterface/Config"
 	"gininterface/Routing"
-	"ginnterface/Config"
 )
 
 func main() {
